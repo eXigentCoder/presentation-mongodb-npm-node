@@ -67,6 +67,9 @@ Note that you can also install multiple dependencies at the same time. E.g.:
 
 > e.g. `npm i moment lodash express`
 
-#shrinkwrap
+This is all good and well, but how do I use a dependency once it has been installed?
+See index.js
 
-#Anatomy of the project folder.
+#Shrinkwrap - make mine to go!
+
+Once you are ready to deploy your app type `npm shrinkwrap` and this will freeze all of your dependencies, and their dependencies, and their dependencies, and their dependencies, etc and write it to the `npm-shrinkwrap.json` file in the root of your app. When your server hosting node does a `npm install`, this file will be used to install the exact dependencies you had on your dev/ci/cd box.
