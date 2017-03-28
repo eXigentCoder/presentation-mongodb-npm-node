@@ -1,3 +1,4 @@
+'use strict';
 const util = require("util");
 /* Wtf, where are import statements? require is so 2016 :/
  * To find out why they aren't here just yet, check out this article https://nodesource.com/blog/es-modules-and-node-js-hard-choices/

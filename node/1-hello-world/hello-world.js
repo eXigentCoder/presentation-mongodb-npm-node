@@ -1,3 +1,4 @@
+'use strict';
 const helloWorldObject = {
     helloWorld: helloWorldFunction
 };
