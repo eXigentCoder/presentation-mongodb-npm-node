@@ -8,6 +8,7 @@ const fileReadOptions = {
 //NB! BAD! This is that blocking IO that your parents warned you about:
 const data = fs.readFileSync(pathToResourceFile, fileReadOptions);
 console.log(data);
+// TODO See node event loop https://youtu.be/8aGhZQkoFbQ?t=17m41s
 
 //todo refactored:
 // // Much better way:

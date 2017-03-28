@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-node-beer-and-tech",
+  "version": "1.0.0",
+  "description": "A repository for my Beer &amp; Technology talk on MongoDB and Node.js",
+  "main": "./node/1-hello-world/index.js",
+  "dependencies": {
+    "moment": "2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXigentCoder/mongodb-node-beer-and-tech.git"
+  },
+  "keywords": [
+    "Node.js",
+    "mongodb"
+  ],
+  "author": "Ryan Kotzen <potz666@gmail.com> (http://blog.exigentcoder.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eXigentCoder/mongodb-node-beer-and-tech/issues"
+  },
+  "homepage": "https://github.com/eXigentCoder/mongodb-node-beer-and-tech#readme"
+}

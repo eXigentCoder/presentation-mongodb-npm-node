@@ -42,6 +42,6 @@ This shorthand for referring to a file from the current directory becomes import
 
 > Type `node hello-world-fs
 
-# Hello World! 4.0 - Splitting your code up
+# Hello World! 4.0 - Splitting your code up into modules
 
 > Type `node hello-world-modular
