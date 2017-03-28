@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f5a1ff-3a8e-43e0-b153-96e3ae94c9ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/1-hello-world/hello-world-fs.js" afterPath="$PROJECT_DIR$/node/1-hello-world/hello-world-fs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/1-hello-world/hello-world-modular.js" afterPath="$PROJECT_DIR$/node/1-hello-world/hello-world-modular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/1-hello-world/hello-world-redux.js" afterPath="$PROJECT_DIR$/node/1-hello-world/hello-world-redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/1-hello-world/hello-world.js" afterPath="$PROJECT_DIR$/node/1-hello-world/hello-world.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/1-hello-world/index.js" afterPath="$PROJECT_DIR$/node/1-hello-world/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/2-npm/index.js" afterPath="$PROJECT_DIR$/node/2-npm/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/native-modules/index.js" afterPath="$PROJECT_DIR$/node/native-modules/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +24,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="94" lean-forward="false" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+              <first_editor relative-caret-position="238">
+                <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -541,12 +533,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490718651176</updated>
       <workItem from="1490718652469" duration="197000" />
-      <workItem from="1490718854072" duration="9829000" />
+      <workItem from="1490718854072" duration="9970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10026000" />
+    <option name="totallyTimeSpent" value="10167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="7" width="1936" height="1056" extended-state="0" />
@@ -807,8 +799,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="94" lean-forward="false" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
