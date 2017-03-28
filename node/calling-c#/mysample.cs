@@ -1,0 +1,1 @@
+async (input) => { return "C# welcomes " + input.ToString(); }

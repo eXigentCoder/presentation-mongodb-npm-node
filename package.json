@@ -4,6 +4,7 @@
   "description": "A repository for my Beer &amp; Technology talk on MongoDB and Node.js",
   "main": "./node/1-hello-world/index.js",
   "dependencies": {
+    "edge": "6.5.1",
     "moment": "2.18.1"
   },
   "devDependencies": {},
