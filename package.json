@@ -5,6 +5,7 @@
   "main": "./node/1-hello-world/index.js",
   "dependencies": {
     "edge": "6.5.1",
+    "express": "4.15.2",
     "moment": "2.18.1",
     "mongodb": "2.2.25"
   },
