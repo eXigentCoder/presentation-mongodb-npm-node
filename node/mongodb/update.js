@@ -1,6 +1,5 @@
 'use strict';
 const mongo = require('./mongo');
-const mongodb = require('mongodb');
 const collectionNames = require('./collection-names');
 mongo.connect(connected);
 
@@ -8,19 +7,15 @@ function connected(err, db) {
     if (err) {
         throw err;
     }
-    const exampleDocument = {
+    const filter = {naturalKey: "bob"};
+    const replacement = {
         naturalKey: "bob",
-        value: 1,
-        dateCreated: new Date(),
-        owner: new mongodb.ObjectId(),
-        someCoolSubObject: {
-            isCool: true
-        }
+        updated: true
     };
-    db.collection(collectionNames.example).insertOne(exampleDocument, inserted);
+    db.collection(collectionNames.example).findOneAndReplace(filter, replacement, replaced);
 }
 
-function inserted(err, result) {
+function replaced(err, result) {
     if (err) {
         mongo.close(disconnected);
         throw err;

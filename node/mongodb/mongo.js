@@ -1,17 +1,6 @@
 'use strict';
 const mongo = require('mongodb');
 const connectionString = "mongodb://localhost:27017/beer-and-tech";
-const opts = {
-    socketOptions: {
-        keepAlive: 1,
-        autoReconnect: true
-    },
-    sslValidate: false
-};
-const mongoConnectionOptions = {
-    server: opts,
-    replSet: opts
-};
 let state = {
     connect: connectToDb,
     db: null,
@@ -43,7 +32,7 @@ function connectToDb(callback) {
             callback(null, state.db);
         });
     }
-    mongo.MongoClient.connect(connectionString, mongoConnectionOptions, connected);
+    mongo.MongoClient.connect(connectionString, connected);
     function connected(err, db) {
         if (err) {
             return callback(err);

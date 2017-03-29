@@ -13,13 +13,10 @@ A repository for my Beer &amp; Technology talk on MongoDB and Node.js
 * https://www.youtube.com/watch?v=bzkRVzciAZg
 * http://www.mongodb-is-web-scale.com/
 
-#TODO
+# Possible addons
 
 * eslint
 * testing (mocking, async vs sync)
-
-* MongoDB
-* MongoChef
 
 * How to deal with async callback hell (Promise, Async.js, async/await co/generator functions)
 
