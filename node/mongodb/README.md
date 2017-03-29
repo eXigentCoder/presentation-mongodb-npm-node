@@ -22,3 +22,13 @@ Simple as that!
 Download and install [MongoChef](https://studio3t.com/download/) it's like the sql management studio of the mongo world.
 [RoboMongo](https://robomongo.org/) is a great alternative if you aren't working with a replica set.
 
+# Using mongo from node.js
+
+# Things to cover in after basics
+
+* Max document size - 16mb
+* Transactions
+* Projections
+* Upserts
+* Bulk operations
+* Aggregation pipeline
