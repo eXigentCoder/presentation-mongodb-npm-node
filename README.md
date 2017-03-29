@@ -14,14 +14,18 @@ A repository for my Beer &amp; Technology talk on MongoDB and Node.js
 * http://www.mongodb-is-web-scale.com/
 
 #TODO
-* npm global modules
-* npm scripts
-* MongoDB
-* MongoChef
+
 * eslint
 * testing (mocking, async vs sync)
+
+* MongoDB
+* MongoChef
+
 * How to deal with async callback hell (Promise, Async.js, async/await co/generator functions)
+
 * Express
     - Error handling
     - Logging
 * PM2
+* Electron
+* React-Native?

@@ -70,6 +70,45 @@ Note that you can also install multiple dependencies at the same time. E.g.:
 This is all good and well, but how do I use a dependency once it has been installed?
 See index.js
 
-#Shrinkwrap - make mine to go!
+# Shrinkwrap - make mine to go!
 
 Once you are ready to deploy your app type `npm shrinkwrap` and this will freeze all of your dependencies, and their dependencies, and their dependencies, and their dependencies, etc and write it to the `npm-shrinkwrap.json` file in the root of your app. When your server hosting node does a `npm install`, this file will be used to install the exact dependencies you had on your dev/ci/cd box.
+
+# Global modules
+
+Add the -g flag e.g. `npm i loadtest -g`. Often times this will add a new .cmd or bash command, hence why it should be in your path variables.
+
+These get installed to `%USERPROFILE%\AppData\Roaming\npm`
+
+Often an anti-pattern so ensure you are using this correctly.
+
+# Dev Dependencies
+
+Add the --save-dev flag e.g. `npm i mocha --save-dev`. This is for the packages you use during dev/ci/cd but which do not get installed to production. Examples include linting and testing.
+
+# Scripts
+
+`npm run <nameOfScript>` - Runs a script defined in your package.json. No need for gulp/grunt! Often used to kick off testing/linting etc.
+
+`package.json`:
+
+```
+{
+    ...
+    "scripts":{
+        ...
+        "lint": "node_modules/.bin/eslint \"src/**/*.js\" \"test/**/*.js\" index.js --fix"
+    }
+}
+```
+
+> `npm run lint`
+
+# Extra commands
+
+* `npm outdated` - list outdated packages.
+* `npm update` - Update packages, see the `npm-check` package.
+* `npm dedupe` - Removes duplicate packages from the node-modules folder based on wildcards. See https://docs.npmjs.com/cli/dedupe.
+* `npm link` - Used for modules development, allows you to link a specific module to a folder on your pc.
+* `npm prune --production` - Removes dev dependencies.
+* `npm t` | `npm test` - Runs the test command specified in your scripts of your package.json.
